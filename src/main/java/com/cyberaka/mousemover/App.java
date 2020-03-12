@@ -13,9 +13,9 @@ import java.awt.Robot;
  */
 public class App {
 
-	public static final int SLEEP_INTERVAL = 60000;
-	public static final int X_DIFF = 1;
-	public static final int Y_DIFF = 1;
+	public static final int SLEEP_INTERVAL = 2000;
+	public static final int X_DIFF = 10;
+	public static final int Y_DIFF = 10;
 	public static void main(String[] args) throws Exception {
 		Robot r = new Robot();
 		Point p;
